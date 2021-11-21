@@ -71,18 +71,26 @@ def check_result(user_sel_action, computer_sel_action):
 
 
 continue_playing = 'Y'
+invalid_input = False
 while continue_playing.upper() == 'Y':
-    user_action = int(input('What do you choose? Type 0 for Rock, 1 for Paper or 2 for Scissors. -> '))
+    try:
+        user_action = int(input('What do you choose? Type 0 for Rock, 1 for Paper or 2 for Scissors. -> '))
+    except ValueError:
+        print('Invalid Input!')
+        continue
     if user_action not in (0, 1, 2):
-        print('Invalid Input, Please Type 0 for Rock, 1 for Paper or 2 for Scissors.')
-        pass
-    computer_action = random.randint(0, 2)
-    print('You chose:')
-    print(f'{print_option(user_action)}')
-    print('Computer chose:')
-    print(f'{print_option(computer_action)}')
-    check_result(user_action, computer_action)
-    continue_playing = input('Do you want to Play again? Type Y or N -> ')
-    if continue_playing.upper() not in ('Y', 'N'):
-        print('Invalid replay Input')
-        break
+        print('Invalid Input!')
+        invalid_input = True
+    if invalid_input:
+        continue
+    else:
+        computer_action = random.randint(0, 2)
+        print('You chose:')
+        print(f'{print_option(int(user_action))}')
+        print('Computer chose:')
+        print(f'{print_option(computer_action)}')
+        check_result(int(user_action), computer_action)
+        continue_playing = input('Do you want to Play again? Type Y or N -> ')
+        if continue_playing.upper() not in ('Y', 'N'):
+            print('Invalid replay Input, Closing the game')
+            break
