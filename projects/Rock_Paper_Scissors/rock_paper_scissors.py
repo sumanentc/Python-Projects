@@ -36,11 +36,15 @@ print(f'Paper -> {paper}')
 print(f'Scissor -> {scissor}')
 print('----------------------------------------')
 
+ROCK_ACTION = 0
+PAPER_ACTION = 1
+SCISSORS_ACTION = 2
+
 
 def print_option(action):
-    if action == 0:
+    if action == ROCK_ACTION:
         return rock
-    elif action == 1:
+    elif action == PAPER_ACTION:
         return paper
     else:
         return scissor
@@ -49,18 +53,18 @@ def print_option(action):
 def check_result(user_sel_action, computer_sel_action):
     if user_sel_action == computer_sel_action:
         print(f'Both Players selected {print_option(user_sel_action)}. It\'s a tie!')
-    elif user_sel_action == 0:
-        if computer_sel_action == 2:
+    elif user_sel_action == ROCK_ACTION:
+        if computer_sel_action == SCISSORS_ACTION:
             print('Rock smashes scissors You win!')
         else:
             print("Paper covers You lose.")
-    elif user_sel_action == 1:
-        if computer_sel_action == 0:
+    elif user_sel_action == PAPER_ACTION:
+        if computer_sel_action == ROCK_ACTION:
             print("Paper covers rock! You win!")
         else:
             print("Scissors cuts paper! You lose.")
-    elif user_sel_action == 2:
-        if computer_sel_action == 1:
+    elif user_sel_action == SCISSORS_ACTION:
+        if computer_sel_action == PAPER_ACTION:
             print("Scissors cuts paper! You win!")
         else:
             print("Rock smashes scissors! You lose.")
@@ -68,7 +72,7 @@ def check_result(user_sel_action, computer_sel_action):
 
 continue_playing = 'Y'
 while continue_playing.upper() == 'Y':
-    user_action = int(input('What do you choose? Type 0 for Rock, 1 for Paper or 2 for Scissors.'))
+    user_action = int(input('What do you choose? Type 0 for Rock, 1 for Paper or 2 for Scissors. -> '))
     if user_action not in (0, 1, 2):
         print('Invalid Input, Please Type 0 for Rock, 1 for Paper or 2 for Scissors.')
         pass
