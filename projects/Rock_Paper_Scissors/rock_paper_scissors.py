@@ -71,7 +71,6 @@ def check_result(user_sel_action, computer_sel_action):
 
 
 continue_playing = 'Y'
-invalid_input = False
 while continue_playing.upper() == 'Y':
     try:
         user_action = int(input('What do you choose? Type 0 for Rock, 1 for Paper or 2 for Scissors. -> '))
@@ -80,8 +79,6 @@ while continue_playing.upper() == 'Y':
         continue
     if user_action not in (0, 1, 2):
         print('Invalid Input!')
-        invalid_input = True
-    if invalid_input:
         continue
     else:
         computer_action = random.randint(0, 2)
