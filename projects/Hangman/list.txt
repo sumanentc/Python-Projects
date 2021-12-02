@@ -1,0 +1,2 @@
+book,door,table,chair,house,father,mother,weather,moon,sun,monday,tuesday,wednesday,Thursday,Friday,sunday,diamond,silver,money,america,india,orange,blue,white,tree,
+lion,monkey,zipper, zodiac,zombie

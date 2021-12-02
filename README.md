@@ -3,7 +3,7 @@ A collection of simple python mini projects to enhance or practice python skills
 
 If you want to learn about python, visit [here](https://realpython.com/).
 
-Python version 3.6 is used for creating the projects.
+Python version 3.9 is used for creating all the projects.
 
 SR No   | Project | Author
 --- | --- | --- 
