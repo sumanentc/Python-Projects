@@ -7,12 +7,7 @@ Rock paper scissors (also known by other orderings of the three items, with "roc
 
 ![](rock-paper.png)
 
-![](rock_paper_scissors.gif)
-
-
-![](rock_paper_scissors.png)
-
-![](rock_paper_scissors1.png)
+![](rock-paper1.png)
 
 
 
