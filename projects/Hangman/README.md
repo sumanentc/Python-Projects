@@ -8,6 +8,8 @@ If the random word contains that alphabet, it will be shown as the output(with c
 
 Sample words for the game are present in a file : list.txt
 
+![HANGMAN](hangman-pic.jpeg)
+
 ![HANGMAN](hangman.png)
 
 ![HANGMAN](hangman1.png)

@@ -4,6 +4,7 @@ Here, numbers, alphabets, and other symbols are selected randomly along with the
 
 ### To start the game go inside project folder and type `python password_generator.py`
 
-![](password-gen.png)
+
+![Password Generator](password-gen.png)
 
 
