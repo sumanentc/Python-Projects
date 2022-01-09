@@ -10,5 +10,6 @@ SR No   | Project | Author
 1 | [Rock Paper Scissors](https://github.com/sumanentc/Python-Projects/tree/master/projects/Rock_Paper_Scissors) | [Suman Das](https://github.com/sumanentc)
 2 | [Secure Password Generator](https://github.com/sumanentc/Python-Projects/tree/master/projects/Password_Generator) |[Suman Das](https://github.com/sumanentc) 
 3 | [Hangman](https://github.com/sumanentc/Python-Projects/tree/master/projects/Hangman)| [Suman Das](https://github.com/sumanentc) 
-4 | [Caesar Cipher](https://github.com/sumanentc/Python-Projects/tree/master/projects/encrypt-decrypt-message)| [Suman Das](https://github.com/sumanentc)
+4 | [Encrypt and decrypt text](https://github.com/sumanentc/Python-Projects/tree/master/projects/encrypt-decrypt-message)| [Suman Das](https://github.com/sumanentc)
+5 | [Calculator](https://github.com/sumanentc/Python-Projects/tree/master/projects/calculator)| [Suman Das](https://github.com/sumanentc)
 
