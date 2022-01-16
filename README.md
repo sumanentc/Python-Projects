@@ -12,5 +12,5 @@ SR No   | Project | Author
 3 | [Hangman](https://github.com/sumanentc/Python-Projects/tree/master/projects/Hangman)| [Suman Das](https://github.com/sumanentc) 
 4 | [Encrypt and decrypt text](https://github.com/sumanentc/Python-Projects/tree/master/projects/encrypt-decrypt-message)| [Suman Das](https://github.com/sumanentc)
 5 | [Calculator](https://github.com/sumanentc/Python-Projects/tree/master/projects/calculator)| [Suman Das](https://github.com/sumanentc)
-6 | [BlackJack]() | [Suman Das](https://github.com/sumanentc)
+6 | [BlackJack](https://github.com/sumanentc/Python-Projects/tree/master/projects/blackjack) | [Suman Das](https://github.com/sumanentc)
 
