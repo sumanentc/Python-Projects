@@ -2,7 +2,7 @@
 
 [BlackJack](https://games.washingtonpost.com/games/blackjack) - also called '21' - the classic casino card game of luck and skill!
 
-###Our Blackjack House Rules
+### Our Blackjack House Rules
 * The deck is unlimited in size.
 * There are no jokers.
 * The Jack/Queen/King all count as 10.
