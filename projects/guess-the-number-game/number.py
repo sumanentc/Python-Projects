@@ -1,5 +1,6 @@
 import random
 from art import logo
+from replit import clear
 
 EASY_LEVEL_TURNS = 10
 HARD_LEVEL_TURNS = 5
@@ -27,17 +28,21 @@ def guess_number():
         input_count = HARD_LEVEL_TURNS
     else:
         print('Invalid input')
-        exit(0)
+        return
 
     while input_count > 0:
         input_number = int(input('Make a guess: '))
         input_count -= 1
         check_number(guessed_number, input_number)
         if input_number == guessed_number:
-            exit(0)
+            return
         if input_count > 0:
             print('Guess again')
             print(f'You have {input_count} attempts remaining to guess the number')
+        else:
+            print('You run out of guesses, you loose')
 
 
-guess_number()
+while input("Do you want to play a game of Number Guessing? Type 'y' or 'n': ") == "y":
+    clear()
+    guess_number()
