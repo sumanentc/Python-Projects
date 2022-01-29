@@ -8,7 +8,7 @@ using [Turtle](https://docs.python.org/3/library/turtle.html#) and [Colorgram](h
 * `pipenv install`
 * `python painting.py`
 
-![](painting.png)
+![](painting.gif)
 
 
 
