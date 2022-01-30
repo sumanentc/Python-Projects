@@ -14,4 +14,5 @@ SR No   | Project | Author
 5 | [Calculator](https://github.com/sumanentc/Python-Projects/tree/master/projects/calculator)| [Suman Das](https://github.com/sumanentc)
 6 | [BlackJack](https://github.com/sumanentc/Python-Projects/tree/master/projects/blackjack) | [Suman Das](https://github.com/sumanentc)
 7 | [SpotArt](https://github.com/sumanentc/Python-Projects/tree/master/projects/spot-art) | [Suman Das](https://github.com/sumanentc)
+8 | [Turtle Race]() | [Suman Das](https://github.com/sumanentc)
 
