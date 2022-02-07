@@ -4,8 +4,6 @@ A snake game is an arcade maze game which has been developed by Gremlin Industri
 
 
 ### To start the game go inside project folder and type
-* `pipenv shell`
-* `pipenv install`
 * `python snake.py`
 
 ![](snake.png)
