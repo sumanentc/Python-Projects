@@ -17,4 +17,5 @@ SR No   | Project | Author
 8 | [Turtle Race](https://github.com/sumanentc/Python-Projects/tree/master/projects/turtle-race) | [Suman Das](https://github.com/sumanentc)
 9 | [Snake Game](https://github.com/sumanentc/Python-Projects/tree/master/projects/snake-game)| [Suman Das](https://github.com/sumanentc)
 10| [Pong Game](https://github.com/sumanentc/Python-Projects/tree/master/projects/pong-game) | [Suman Das](https://github.com/sumanentc)
+11| [English to Hindi Translator](https://github.com/sumanentc/Python-Projects/tree/master/projects/english-to-hindi) | [Suman Das](https://github.com/sumanentc)
 
