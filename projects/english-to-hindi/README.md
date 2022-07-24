@@ -7,7 +7,9 @@
 * `pipenv install`
 * `python eng_to_hindi.py`
 
-![](converter.png)
+-------------------------------
+
+![](converter1.gif)
 
 
 
