@@ -18,5 +18,5 @@ SR No   | Project | Author
 9 | [Snake Game](https://github.com/sumanentc/Python-Projects/tree/master/projects/snake-game)| [Suman Das](https://github.com/sumanentc)
 10| [Pong Game](https://github.com/sumanentc/Python-Projects/tree/master/projects/pong-game) | [Suman Das](https://github.com/sumanentc)
 11| [English to Hindi Translator](https://github.com/sumanentc/Python-Projects/tree/master/projects/english-to-hindi) | [Suman Das](https://github.com/sumanentc)
-12| [Screen Recorder]()|[Suman Das](https://github.com/sumanentc)
+12| [Screen Recorder](https://github.com/sumanentc/Python-Projects/tree/master/projects/screen_recorder)|[Suman Das](https://github.com/sumanentc)
 
