@@ -55,7 +55,7 @@ def record_screen(entries, ws, hs):
 
         # For Preview of Video
         cv2.namedWindow(winname, cv2.WINDOW_NORMAL)
-        cv2.moveWindow(winname, ws - 800, -100)
+        cv2.moveWindow(winname, ws - (width+left), -100)
 
         out.write(frame)
         cv2.imshow(winname, frame)
